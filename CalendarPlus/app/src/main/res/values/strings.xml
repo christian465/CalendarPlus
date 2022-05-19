@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CalendarPlus</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="spinnerFonts">Android Spinner</string>
+
+    <string-array name="planets_array">
+        <item>Sans-Serif</item>
+        <item>Courier New</item>
+        <item>Rubik</item>
+        <item>Typeface</item>
+        <item>Lobster</item>
+        <item>Arial</item>
+        <item>Arial Bold</item>
+        <item>Times New Roman</item>
+    </string-array>
+    <string-array name="background_arrays">
+        <item>Navy</item>
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Dark Red</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="text_arrays">
+        <item>Navy</item>
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Dark Red</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="tab_arrays">
+        <item>Navy</item>
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Dark Red</item>
+        <item>White</item>
+    </string-array>
+</resources>

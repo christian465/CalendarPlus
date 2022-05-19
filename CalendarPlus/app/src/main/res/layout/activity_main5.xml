@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041260"
+    android:onClick="@string/spinnerFonts"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D58105"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Calendar +"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="45dp" />
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="155dp"
+        android:background="#2749AF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Change Background"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="251dp"
+        android:background="#2749AF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Change Text Colour"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="352dp"
+        android:background="#2749AF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Change Tab Colour"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="510dp"
+        android:background="#2749AF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Your User ID"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="1dp"
+        android:background="#2749AF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="user.jp50vd"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="#2749AF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Change Font"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:id="@+id/spinnerFont12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="97dp"
+        android:background="@color/purple_500"
+        android:contentDescription="@string/spinnerFonts"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinnerFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="194dp"
+        android:background="@color/purple_500"
+        android:contentDescription="@string/spinnerFonts"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinnerFont2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="293dp"
+        android:background="@color/purple_500"
+        android:contentDescription="@string/spinnerFonts"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinnerFont3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="392dp"
+        android:background="@color/purple_500"
+        android:contentDescription="@string/spinnerFonts"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginBottom="237dp"
+        android:text="Confirm" />
+
+</RelativeLayout>
